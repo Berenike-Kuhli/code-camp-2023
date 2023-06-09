@@ -1,0 +1,6 @@
+<!-- *ngFor ersetzt eine For-Iteration über die Datenbank, legt für jeden vorhandenen Eintrag eine Zeile an, 
+diese ist in der leistung-paket-display.component.html definiert -->
+<pct-leistung-paket-display
+  *ngFor="let paket of pakete"
+  [paket]="paket"
+></pct-leistung-paket-display>
