@@ -1,9 +1,9 @@
 import { Route } from '@angular/router';
-import { LeistungPaketDisplayComponent } from './leistung-paket-display/leistung-paket-display.component';
+import { LeistungPaketPageComponent } from './leistung-paket-page/leistung-paket-page.component';
 
 export const appRoutes: Route[] = [
   {
     path: '',
-    component: LeistungPaketDisplayComponent,
+    component: LeistungPaketPageComponent,
   },
 ];
